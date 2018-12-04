@@ -2,6 +2,8 @@ This class will help in creating Rounded UIImageview which can Adjust its size a
 
 
 
+Note :- Use this class only after removing fixed width/height of UIImageView
+
 The code for setting the cornerRadius needs to happen after the size of the view has been set by Auto Layout. An easy way to make sure that happens is to subclass UIImageView and place the code to set the cornerRadius in an override of layoutSubviews()
 
 ```
