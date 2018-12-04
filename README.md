@@ -18,3 +18,7 @@ class RoundImageView: UIImageView {
 ```
 
 Then, just change the Class of your UIImageViews to RoundImageView in the Identity Inspector and it will work.
+
+
+
+Source Link :- https://stackoverflow.com/a/48842525/10314094 
